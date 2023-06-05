@@ -6,10 +6,10 @@ export default function TodoCounter(props) {
   
 
 
-  const styleTodoCounter = {
-    color: "red",
-    backgroundColor:"#000000"
-  }
+  // const styleTodoCounter = {
+  //   color: "red",
+  //   backgroundColor:"#000000"
+  // }
   return (
     <>
         {/* <h2 style={{color:"#fff", backgroundColor: "#000000"}}> Tienes 4 tareas pendientes de 4</h2> */}

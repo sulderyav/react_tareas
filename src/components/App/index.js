@@ -68,14 +68,14 @@ function App() {
   const totalTodos = todos.length;
   const completedTodos = defaultTodos.filter((todo) => !todo.completed).length;
 
-  function searchTodos(){
-    const todosfilter = todos.filter(function(todo){
-      const searchInput = search.toLowerCase();
-      const titleTodos = todo.title.toLowerCase();
-      return titleTodos.includes(searchInput)
-    })
-    return todosfilter;
-  }
+  // function searchTodos(){
+  //   const todosfilter = todos.filter(function(todo){
+  //     const searchInput = search.toLowerCase();
+  //     const titleTodos = todo.title.toLowerCase();
+  //     return titleTodos.includes(searchInput)
+  //   })
+  //   return todosfilter;
+  // }
   
   const newArray = todos.filter((todos)=> {
     const searchInput = search.toLowerCase();
